@@ -1,0 +1,314 @@
+
+/* =====================================
+GLOBAL RESET STREAMLIT
+===================================== */
+
+header {
+    visibility: hidden;
+}
+
+#MainMenu {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+.stApp {
+    background-color: #F1FAEE;
+    min-height: 100vh;
+}
+
+
+.st-emotion-cache-wfksaw {
+    align-items: center !important;
+    color: #2E7D32;
+
+}
+/* =====================================
+CENTER WRAPPER (FIX UTAMA LAYOUT)
+===================================== */
+
+.center-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.st-emotion-cache-tn0cau {
+    align-items: center !important;
+
+}
+
+/* =====================================
+HERO BOX (HOME)
+===================================== */
+
+.hero-box {
+    width: 65%;
+    margin: 0 auto 30px auto;
+    background: rgba(255, 255, 255, 0.55);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    padding: 18px;
+    text-align: center;
+}
+
+.hero-box h3 {
+    color: #c1d739;
+    font-size: clamp(24px, 5vw, 60px);
+    font-weight: 800;
+    font-family: "Segoe UI", sans-serif;
+    text-shadow: 2px 2px 4px #2E7D32;
+    margin-bottom: 6px;
+}
+
+.hero-box p {
+    color: #2E7D32;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 500;
+    margin: 0;
+}
+
+
+/* =====================================
+BUTTON PRIMARY
+===================================== */
+/* BUTTON MULAI & PROSES */
+.stButton > button[kind="primary"] {
+    background-color: #2E7D32 !important;
+    color: #c1d739 !important;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 15px;
+    height: 55px;
+    border: none;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.stButton > button[kind="primary"]:hover {
+    background-color: #2E7D32 !important;
+}
+
+/* =====================================
+BUTTON DEFAULT (BUAH)
+===================================== */
+
+.stButton > button {
+    background: transparent;
+    color: #2E7D32;
+    font-size: 16px;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+
+    padding: 10px 14px;
+    width: auto;
+    transition: all 0.25s ease;
+}
+
+.stButton > button:hover {
+    transform: scale(1.03);
+}
+
+
+/* =====================================
+PAGE TITLE
+===================================== */
+
+div.page-title {
+    color: #2E7D32;
+    font-size: clamp(22px, 4vw, 50px);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/* =====================================
+FRUIT GRID FIX (INI KUNCI)
+===================================== */
+
+div.column{
+    color: #2E7D32;
+    font-size: 20px;
+
+}
+
+.fruit-grid {
+    width: 100%;
+    max-width: 900px;
+    /* margin: 0 auto; */
+}
+
+div.fruit-page {
+    text-align: center;
+}
+
+.fruit-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+}
+
+
+.st-emotion-cache-1o2nani p{
+    font-size: 16px;
+    font-weight: bold;
+    word-break: unset;
+}
+
+.st-emotion-cache-zy6yx3{
+    padding: 42px 22px;
+    min-height: none;
+}
+
+/* IMAGE FIX */
+[data-testid="stImage"] img {
+    width: 100% !important;
+    max-width: 120px !important;
+    height: 120px !important;
+    object-fit: contain;
+    display: block;
+    /* margin: auto; */
+}
+
+[data-testid="column"] {
+    text-align: center;
+}
+
+.proses-button-wrapper .stButton > button {
+    background-color: #2E7D32;
+    color: #c1d739;
+    border-radius: 15px;
+    width: 180px;
+    height: 45px;
+}
+/* =====================================
+RESULT BOX
+===================================== */
+
+div.green-box {
+    background: #2E7D32;
+    color: #c1d739;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-size: clamp(20px, 4vw, 30px);
+    border-radius: 20px;
+    padding: 12px;
+    text-align: center;
+}
+
+
+/* =====================================
+CARD
+===================================== */
+
+.card-box {
+    background: #c1d739;
+    border-radius: 20px;
+    padding: 18px;
+}
+
+.card-title {
+    color: #2E7D32;
+    font-size: clamp(18px, 3vw, 24px);
+    font-weight: 700;
+}
+
+.card-text {
+    color: #4F5D75;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* =====================================
+RESULT TEXT
+===================================== */
+
+.result-box {
+    color: #2E7D32;
+    font-size: clamp(28px, 6vw, 52px);
+    font-weight: 800;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.fruit-title p{
+    font-weight: 700;
+    color: #2E7D32;
+    font-size: 36px;
+    margin: 0;
+}
+
+.fruit-text{
+    font-size: 22px;
+}
+/* =====================================
+RESPONSIVE
+===================================== */
+
+@media (max-width: 768px) {
+
+    .st-emotion-cache-zy6yx3{
+    padding: 24px 24px 32px 24px;
+}
+
+    .hero-box {
+        width: 90%;
+        padding: 12px;
+    }
+
+    .hero-box h3 {
+        font-size: 26px;
+    }
+
+    .hero-box p {
+        font-size: 14px;
+    }
+
+    .stButton > button[kind="primary"] {
+        font-size: 16px;
+        height: 50px;
+        width: 100%;
+        min-width: auto;
+    }
+
+    .stButton > button {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .fruit-grid {
+        max-width: 100%;
+    }
+
+    [data-testid="stImage"] img {
+        width: 90px !important;
+        height: 90px !important;
+    }
+
+    div.page-title {
+        font-size: 20px;
+    }
+}
+
+/* TOMBOL MULAI TENGAH */
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button-wrapper .stButton {
+    display: flex;
+    justify-content: center;
+}
